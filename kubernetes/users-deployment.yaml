@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: users
-          image: academind/kub-demo-users:latest
+          image: kabinad24/kub-dep-users:latest
           env:
             - name: AUTH_ADDRESS
-              # value: "10.99.104.252"
+              #value: "10.100.39.136"
               value: "auth-service.default"
